@@ -27,7 +27,7 @@ You need to give execute permission to the users, to be able to run the Anaconda
 sudo chmod +x Anaconda3-2021.05-Linux-x86_64.sh
 ```
 
-You also need to change the owner of the directory you select for anaconda installation. \(or you can give a permission to your user on this directory\). The selected directory is "/data" for our case.
+You also need to change the owner of the directory you select for anaconda installation. \(or you can give permission to your user on this directory\). The selected directory is "/data" for our case.
 
 ```text
 sudo chown -R ozgunakn:ozgunakn /data
@@ -42,11 +42,8 @@ cd downloads
 ./Anaconda3-2021.05-Linux-x86_64.sh
 ```
 
-{% hint style="info" %}
-It will suggest you an installing directory, you can change it. In our case, I typed "/data/anaconda3" as installing directory.
-
-After installation, it will ask you, whether you want to run initialize or not. You can type YES.
-{% endhint %}
+* It will suggest you an installing directory, you can change it. In our case, I typed "/data/anaconda3" as installing directory.
+* After installation, it will ask you, whether you want to run initialize or not. You can type YES.
 
 You need to source .bashrc file after installation.
 
