@@ -42,5 +42,17 @@ cd downloads
 ./Anaconda3-2021.05-Linux-x86_64.sh
 ```
 
+{% hint style="info" %}
+It will suggest you an installing directory, you can change it. In our case, I typed "/data/anaconda3" as installing directory.
 
+After installation, it will ask you, whether you want to run initialize or not. You can type YES.
+{% endhint %}
+
+You need to source .bashrc file after installation.
+
+```text
+source ./bashrc
+```
+
+If the base conda environment automatically is openned, you are good to go! If it is not you can repeat the steps above.
 
