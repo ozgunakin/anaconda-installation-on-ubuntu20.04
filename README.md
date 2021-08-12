@@ -51,5 +51,23 @@ You need to source .bashrc file after installation.
 source ./bashrc
 ```
 
-If the base conda environment automatically is openned, you are good to go! If it is not you can repeat the steps above.
+If the base conda environment automatically is opened, you are good to go! If it is not you can repeat the steps above.
+
+## Step 5 - Activate Conda Forge
+
+It is important to activate conda-forge to be able to install additional packages.
+
+```text
+conda config --add channels conda-forge
+```
+
+## Hint!
+
+You can search packages and versions on anaconda using the code below
+
+```text
+conda search airflow
+```
+
+
 
